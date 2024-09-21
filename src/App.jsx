@@ -1,21 +1,22 @@
 import { useState } from "react";
 import "./App.css";
-import CurrencyDropdown from "./CurrencyDropdown";
-import MyContext from "./CurrencyContext";
+import StockInput from "./StockInput";
+import StockContext from "./StockContext";
 
 function App() {
   const [currencyFrom, setCurrencyFrom] = useState("USD");
   const [currencyTo, setCurrencyTo] = useState("USD");
 
   return (
-    <MyContext.Provider
+    <StockContext.Provider
       value={{ currencyFrom, setCurrencyFrom, currencyTo, setCurrencyTo }}
     >
       <>
-        <h1>Currency Converter</h1>
-        <CurrencyDropdown />
+        <img src="https://images.unsplash.com/photo-1665652475985-37e285aeff53?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+        <h1>Finance Dashboard</h1>
+        <StockInput />
       </>
-    </MyContext.Provider>
+    </StockContext.Provider>
   );
 }
 
