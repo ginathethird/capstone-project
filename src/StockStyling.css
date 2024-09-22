@@ -7,20 +7,12 @@
   align-items: left;
 }
 
-#currencySelect {
-  height: 50px;
-  background-color: #eac46b;
-  color: black;
-  font-weight: bold;
-  width: auto;
-  border-radius: 10px;
-}
-
 .input  {
   height: 50px;
   width: auto;
   border: 1px solid grey;
   border-radius: 10px;
+  
 }
 
 .add-stock-btn {
