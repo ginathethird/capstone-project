@@ -1,7 +1,7 @@
 body {
     margin: 0; 
     padding: 0;
-    height: 100vh;
+    height: 65vh;
     text-align: center;
     background-image: url("https://images.unsplash.com/photo-1665652475985-37e285aeff53?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
@@ -60,7 +60,10 @@ p {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(50px);
   border: 1px solid rgba(144, 125, 207, 0.61);
-  
+}
+
+input::placeholder {
+  padding-left: 8px
 }
 
 .add-stock-btn {
