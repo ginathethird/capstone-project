@@ -1,3 +1,34 @@
+// import { useState } from "react";
+// import "./App.css";
+// import StockInput from "./StockInput";
+// import StockContext from "./StockContext";
+
+// function App() {
+//   const [currencyFrom, setCurrencyFrom] = useState("USD");
+//   const [currencyTo, setCurrencyTo] = useState("USD");
+//   const [displayStockList, setDisplayStockList] = useState("");
+
+//   return (
+//     <StockContext.Provider
+//       value={{ currencyFrom, setCurrencyFrom, currencyTo, setCurrencyTo }}
+//     >
+//       <div className="container">
+//           <div className="header">
+//             Finance Dashboard
+//           </div>
+
+//           <StockInput />
+//           <div className="container">
+//             <h2>Stock List</h2>
+//             <p>No stocks added yet.</p>
+//           </div>
+//       </div>
+//     </StockContext.Provider>
+//   );
+// }
+
+// export default App;
+
 import { useState } from "react";
 import "./App.css";
 import StockInput from "./StockInput";
